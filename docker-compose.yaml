@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    # image: "gusevmi2/flask:1.0"
+    # image: "aquaman/flask:1.0"
     build: .
     container_name: flask
     environment:
@@ -49,4 +49,3 @@ services:
 
 volumes:
   postgres_data:
-
